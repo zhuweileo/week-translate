@@ -58,7 +58,7 @@ const favNumber = add(31, 11);
 
 
 
-让我们一起看一看在TS中都有哪些变量类型时可用的。
+让我们一起看一看在TS中都有哪些变量类型时可用的。期中的原始类型有 `boolean`, `string`, `number`, `Symbol`, `null`, `undefined` 和 `BigInt`  (是的， `BigInt` 好像是现代JS中的一个原始类型 😅)；`void`类型表示函数没有返回任何内容；`Array<T>`类型通常表示为`string[]`或`number[]`。当然这里也有环境特定的类型像，  `ReactElement`, `HTMLInputElement` 或 `Express.App`  ，这些类型不是所有项目都可用的，只对特定的项目可用。
 
 
 
